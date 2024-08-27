@@ -7,12 +7,5 @@ const collection = 'LIVRARIA';
 /* CRIAR OU ACESSAR O BANCO DE DADOS: */
 use(database);
 
-/* CRIAR UMA COLEÇÃO:  */
-db.createCollection(collection);
-
-db[collection].insertOne(
-    {
-        
-
-    }
-)
+/*ALTERA OS DADOS DE UM DOCUMENTO NDA COLLECTION*/
+db[collection].upadteOne({});
