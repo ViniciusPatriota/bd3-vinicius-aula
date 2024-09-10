@@ -3,11 +3,8 @@ const database = 'BD3-NoSQL-AtlasMongoDB';
 const collection = 'bd3-nosql-atv1';
 //cria ou acessar o banco de dados
 use(database);
-//db e um obj
  
-//os dedos devem ser passados como json 
 db[collection].insertMany([
-  [
     {
       "codigo_aluno": "1",
       "codigo_turma": "1",
@@ -118,6 +115,5 @@ db[collection].insertMany([
       "email": "ricardo.souza@example.com",
       "data_nasc": "2006-10-30"
     }
-  ]
   
-])
+]);
